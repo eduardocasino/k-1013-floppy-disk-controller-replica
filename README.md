@@ -4,11 +4,13 @@
 
 Welcome to my K-1013 Rev. D Floppy Disk Controller replica repository.
 
-**WARNING: This design has not been tested yet. Use at your own risk!**
+First version of the schematic is now completed. Most probably it will change as I check it against the real board.
+
+**WARNING: This design is a work-in-progress has not been tested yet. Use at your own risk!**
 
 ## About
 
-This is a faithful replica of the K-1013 Floppy Disk Controller, an extension board for the KIM-1 designed by MTU in the late 70's/early 80's for interfacing with [Shugart Associates](https://en.wikipedia.org/wiki/Shugart_Associates) compatible 8'' and 5.25'' FDDs.
+This aims to be a faithful replica of the K-1013 Floppy Disk Controller, an extension board for the KIM-1 designed by MTU in the late 70's/early 80's for interfacing with [Shugart Associates](https://en.wikipedia.org/wiki/Shugart_Associates) compatible 8'' and 5.25'' FDDs.
 
 ## Building
 

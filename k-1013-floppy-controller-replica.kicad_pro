@@ -55,7 +55,7 @@
         0,
         2,
         0,
-        1,
+        0,
         0,
         0,
         1,
@@ -81,7 +81,7 @@
       ],
       [
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -338,6 +338,14 @@
     [
       "dc38681e-d4c3-457a-931d-b637a9faa354",
       "Floppy Disk Interface andd Write Precompensation"
+    ],
+    [
+      "1367565c-264d-4689-be7f-6482ff0b2567",
+      "Memory and DMA Logic"
+    ],
+    [
+      "8465c3f7-e958-4f7a-9cd2-8908d89e5c4f",
+      "Power pins, decoupling caps and unused units"
     ]
   ],
   "text_variables": {}
