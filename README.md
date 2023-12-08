@@ -28,4 +28,6 @@ See the LICENSE.md file for details.
 
 ## Acknowledgements
 
-TODO
+* Dave Plummer, of [Dave's Garage](https://www.youtube.com/@DavesGarage) fame, for documentation and pictures of his card. I'm building this replica out of pure envy of his system!
+* [David Williams](https://www.trailingedge.com/) for taking the time to disassemble his MTU-130 and send me hi-res pictures of his board.
+* [Hans Otten](http://retro.hansotten.nl). Tons of documentation on his retro computing site.
