@@ -5,6 +5,258 @@
   (paper "A3")
 
   (lib_symbols
+    (symbol "74LS13_U56_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "74LS13_U56" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "TTL Nand4" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Dual 4-input NAND Schmitt trigger" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "DIP*W7.62mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "74LS13_U56_1_1_1"
+        (arc (start -0.635 -4.445) (mid 3.7907 0) (end -0.635 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -0.635 4.445)
+            (xy -3.81 4.445)
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 -3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -1.27 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 1.27 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin output inverted (at 7.62 0 180) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "74LS13_U56_1_1_2"
+        (arc (start -3.81 -4.445) (mid -2.5908 0) (end -3.81 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (arc (start -0.6096 -4.445) (mid 2.2246 -2.8422) (end 3.81 0)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -3.81 4.445)
+            (xy -0.635 4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -0.635 4.445)
+            (xy -3.81 4.445)
+            (xy -3.81 4.445)
+            (xy -3.6322 4.0894)
+            (xy -3.0988 2.921)
+            (xy -2.7686 1.6764)
+            (xy -2.6162 0.4318)
+            (xy -2.6416 -0.8636)
+            (xy -2.8702 -2.1082)
+            (xy -3.2512 -3.3274)
+            (xy -3.81 -4.445)
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width -25.4) (type default))
+          (fill (type background))
+        )
+        (arc (start 3.81 0) (mid 2.2204 2.8379) (end -0.6096 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input inverted (at -7.62 3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 1.27 0) (length 4.826)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 -1.27 0) (length 4.826)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 -3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "74LS13_U56_1_2_1"
+        (arc (start -0.635 -4.445) (mid 3.7907 0) (end -0.635 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -0.635 4.445)
+            (xy -3.81 4.445)
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -7.62 1.27 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -1.27 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin output inverted (at 7.62 0 180) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "74LS13_U56_1_2_2"
+        (arc (start -3.81 -4.445) (mid -2.5908 0) (end -3.81 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (arc (start -0.6096 -4.445) (mid 2.2246 -2.8422) (end 3.81 0)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -3.81 4.445)
+            (xy -0.635 4.445)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -0.635 4.445)
+            (xy -3.81 4.445)
+            (xy -3.81 4.445)
+            (xy -3.6322 4.0894)
+            (xy -3.0988 2.921)
+            (xy -2.7686 1.6764)
+            (xy -2.6162 0.4318)
+            (xy -2.6416 -0.8636)
+            (xy -2.8702 -2.1082)
+            (xy -3.2512 -3.3274)
+            (xy -3.81 -4.445)
+            (xy -3.81 -4.445)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width -25.4) (type default))
+          (fill (type background))
+        )
+        (arc (start 3.81 0) (mid 2.2204 2.8379) (end -0.6096 4.445)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin input inverted (at -7.62 1.27 0) (length 4.826)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 -1.27 0) (length 4.826)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 -3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input inverted (at -7.62 3.81 0) (length 3.81)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "74LS13_U56_1_3_0"
+        (pin power_in line (at 0 12.7 270) (length 5.08)
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -12.7 90) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "74LS13_U56_1_3_1"
+        (rectangle (start -5.08 7.62) (end 5.08 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "74xx:74LS04" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
@@ -3047,6 +3299,9 @@
   (junction (at 299.72 238.76) (diameter 0) (color 0 0 0 0)
     (uuid 244485a5-a615-4eab-b8de-c1b7de15dca9)
   )
+  (junction (at 299.72 247.65) (diameter 0) (color 0 0 0 0)
+    (uuid 24d632fa-8549-4ca1-a83e-561eb1713a92)
+  )
   (junction (at 282.575 238.76) (diameter 0) (color 0 0 0 0)
     (uuid 2cef0ac6-41fc-4a8a-8d41-bb5acacef868)
   )
@@ -3131,6 +3386,9 @@
   (junction (at 193.04 189.865) (diameter 0) (color 0 0 0 0)
     (uuid 5a3cfa0f-0cd1-41ee-a86e-9a0a9d55a151)
   )
+  (junction (at 282.575 247.65) (diameter 0) (color 0 0 0 0)
+    (uuid 5fe68312-68f9-4c76-8cc2-17ac102dc930)
+  )
   (junction (at 46.355 227.33) (diameter 0) (color 0 0 0 0)
     (uuid 62c0ed7e-9140-41db-bdf9-8ec86006db4f)
   )
@@ -3167,6 +3425,9 @@
   (junction (at 296.545 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 7e4a1d2f-8a38-4988-928c-60a26a9e86f5)
   )
+  (junction (at 258.445 247.65) (diameter 0) (color 0 0 0 0)
+    (uuid 810b875e-604a-4d80-aa1f-4e066fd22910)
+  )
   (junction (at 302.895 114.935) (diameter 0) (color 0 0 0 0)
     (uuid 81b6c666-e3e8-4306-8698-4eb6829f7ae9)
   )
@@ -3187,9 +3448,6 @@
   )
   (junction (at 367.665 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 96c5186c-e232-4d4c-a91e-8d981214d678)
-  )
-  (junction (at 258.445 247.65) (diameter 0) (color 0 0 0 0)
-    (uuid 984b6a32-5b95-492b-b16e-d72d762121b3)
   )
   (junction (at 45.72 123.825) (diameter 0) (color 0 0 0 0)
     (uuid 9a084ecf-70d1-477b-aeb7-f15925389c0e)
@@ -3806,10 +4064,6 @@
     (stroke (width 0) (type default))
     (uuid 3ee1c499-6fc8-4123-946a-94319872f12c)
   )
-  (wire (pts (xy 252.73 247.65) (xy 258.445 247.65))
-    (stroke (width 0) (type default))
-    (uuid 3eede5ad-fba1-43cb-b9c3-34c74deb4df8)
-  )
   (wire (pts (xy 119.38 74.93) (xy 119.38 72.39))
     (stroke (width 0) (type default))
     (uuid 3ef24ece-c5cb-4fd9-bb7c-503b19cf0a47)
@@ -3999,7 +4253,7 @@
     (stroke (width 0) (type default))
     (uuid 559130d5-9551-4641-b03b-9053d4be5dac)
   )
-  (wire (pts (xy 258.445 247.65) (xy 267.97 247.65))
+  (wire (pts (xy 252.73 247.65) (xy 258.445 247.65))
     (stroke (width 0) (type default))
     (uuid 55da4714-8ed2-475f-ad1b-d8d69ba1d2f9)
   )
@@ -4167,6 +4421,10 @@
     (stroke (width 0) (type default))
     (uuid 6c2e5d57-842c-4700-872e-10d377293d04)
   )
+  (wire (pts (xy 282.575 247.65) (xy 299.72 247.65))
+    (stroke (width 0) (type default))
+    (uuid 6c661a99-0611-4e4b-8037-b92527c32857)
+  )
   (wire (pts (xy 194.31 184.15) (xy 193.04 184.15))
     (stroke (width 0) (type default))
     (uuid 6c942382-60d5-4f29-84f7-6cfaa6ccb8d4)
@@ -4238,6 +4496,10 @@
   (wire (pts (xy 34.925 107.95) (xy 39.37 107.95))
     (stroke (width 0) (type default))
     (uuid 77370065-a46b-45c5-b53d-5a876cb41e38)
+  )
+  (wire (pts (xy 258.445 238.76) (xy 267.97 238.76))
+    (stroke (width 0) (type default))
+    (uuid 77bbcc7f-8c7f-454c-8cc5-e2ee7a2e8df7)
   )
   (wire (pts (xy 360.68 180.975) (xy 360.68 177.8))
     (stroke (width 0) (type default))
@@ -4724,6 +4986,10 @@
     (stroke (width 0) (type default))
     (uuid b10537d7-79e2-4353-aed0-a6434048a370)
   )
+  (wire (pts (xy 258.445 245.745) (xy 258.445 247.65))
+    (stroke (width 0) (type default))
+    (uuid b11d3b9a-9497-49ab-b5ad-8ddf1d17d035)
+  )
   (wire (pts (xy 317.5 127.635) (xy 317.5 167.64))
     (stroke (width 0) (type default))
     (uuid b11d66d5-74a7-426b-92e5-041ab2ea0339)
@@ -4828,7 +5094,7 @@
     (stroke (width 0) (type default))
     (uuid b979beb5-7469-4e99-b201-cae7de241134)
   )
-  (wire (pts (xy 299.72 245.745) (xy 299.72 248.285))
+  (wire (pts (xy 299.72 245.745) (xy 299.72 247.65))
     (stroke (width 0) (type default))
     (uuid ba9f0578-18dd-44af-baed-ba495092dcc5)
   )
@@ -4839,6 +5105,10 @@
   (wire (pts (xy 55.245 175.895) (xy 55.245 179.07))
     (stroke (width 0) (type default))
     (uuid bb565843-85c0-4e3b-8b5c-9f206e3877fc)
+  )
+  (wire (pts (xy 258.445 247.65) (xy 267.97 247.65))
+    (stroke (width 0) (type default))
+    (uuid bb84dc0c-40a1-49db-a86c-ba50545e3b53)
   )
   (wire (pts (xy 118.745 196.85) (xy 118.745 135.89))
     (stroke (width 0) (type default))
@@ -4984,10 +5254,6 @@
     (stroke (width 0) (type default))
     (uuid d0cf3bb8-e472-4b3e-a1e6-34369baf68c9)
   )
-  (wire (pts (xy 258.445 240.665) (xy 258.445 238.76))
-    (stroke (width 0) (type default))
-    (uuid d22162e3-fdae-4baf-8ef0-ddb7965494a9)
-  )
   (wire (pts (xy 358.14 180.975) (xy 360.68 180.975))
     (stroke (width 0) (type default))
     (uuid d22e0818-7f69-4ddd-8385-b836b73abc51)
@@ -5007,6 +5273,10 @@
   (wire (pts (xy 260.985 188.595) (xy 262.89 188.595))
     (stroke (width 0) (type default))
     (uuid d2bafb3f-8a38-4f27-8302-79f17ad26497)
+  )
+  (wire (pts (xy 299.72 247.65) (xy 299.72 248.285))
+    (stroke (width 0) (type default))
+    (uuid d3779bf2-6165-41d6-bdff-38049026bc9b)
   )
   (wire (pts (xy 41.91 140.97) (xy 41.91 154.305))
     (stroke (width 0) (type default))
@@ -5035,6 +5305,10 @@
   (wire (pts (xy 227.33 76.2) (xy 220.98 76.2))
     (stroke (width 0) (type default))
     (uuid d6f5db06-0684-4514-87f9-5af57c925976)
+  )
+  (wire (pts (xy 258.445 240.665) (xy 258.445 238.76))
+    (stroke (width 0) (type default))
+    (uuid d72fbff9-64cc-428e-98c7-1a9fcf6ee2d5)
   )
   (wire (pts (xy 283.21 83.82) (xy 298.45 83.82))
     (stroke (width 0) (type default))
@@ -5239,10 +5513,6 @@
     (stroke (width 0) (type default))
     (uuid eb67fbc5-57ff-4753-bb64-76eeeec02e12)
   )
-  (wire (pts (xy 258.445 245.745) (xy 258.445 247.65))
-    (stroke (width 0) (type default))
-    (uuid ebb39ef3-fc93-47b9-893c-c892b325f0b7)
-  )
   (wire (pts (xy 291.465 40.005) (xy 286.385 40.005))
     (stroke (width 0) (type default))
     (uuid ebd5338a-d30c-416e-9408-d6052495a4ce)
@@ -5274,10 +5544,6 @@
   (wire (pts (xy 260.985 193.675) (xy 288.925 193.675))
     (stroke (width 0) (type default))
     (uuid eeecdb77-b23d-4cfb-bc2a-4770b577e3d7)
-  )
-  (wire (pts (xy 258.445 238.76) (xy 267.97 238.76))
-    (stroke (width 0) (type default))
-    (uuid ef4f3e8b-1b21-4cbe-a5b1-4a42500456d0)
   )
   (wire (pts (xy 299.72 213.995) (xy 299.72 215.265))
     (stroke (width 0) (type default))
@@ -5734,7 +6000,7 @@
   (symbol (lib_id "power:GND") (at 295.91 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0034bb1c-6d69-415a-a308-1e0fb838c1cb)
-    (property "Reference" "#PWR01" (at 295.91 93.345 0)
+    (property "Reference" "#PWR068" (at 295.91 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 293.624 89.535 0)
@@ -5749,12 +6015,6 @@
     (pin "1" (uuid e0d0ee8e-179d-46de-8c44-1f7307bde904))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR068") (unit 1)
         )
@@ -5765,7 +6025,7 @@
   (symbol (lib_id "power:GND") (at 248.285 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01393928-d25b-45fe-8199-ebdf9da5ab25)
-    (property "Reference" "#PWR01" (at 248.285 208.28 0)
+    (property "Reference" "#PWR076" (at 248.285 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.825 204.47 0)
@@ -5780,12 +6040,6 @@
     (pin "1" (uuid 0862a423-9a31-4893-814e-e0ddc5d0bc6e))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR076") (unit 1)
         )
@@ -5796,13 +6050,13 @@
   (symbol (lib_id "R_Potentiometer:R_Potentiometer_Small_US") (at 264.795 100.965 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 061b9942-aac6-46fb-b784-9ac729540108)
-    (property "Reference" "R27" (at 264.795 98.425 90)
+    (property "Reference" "R42" (at 264.795 98.425 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500R" (at 267.97 103.505 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:Potentiometer_Bourns_3339P_Vertical" (at 264.795 100.965 0)
+    (property "Footprint" "K_1013:Potentiometer_Bourns_3339P_Vertical" (at 264.795 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.795 100.965 0)
@@ -5813,9 +6067,6 @@
     (pin "1" (uuid 80fbaffd-c750-4292-ab9c-476ba49708c6))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R27") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R42") (unit 1)
         )
@@ -5832,7 +6083,7 @@
     (property "Value" "LS04" (at 217.17 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 218.44 78.74 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 218.44 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 218.44 78.74 0)
@@ -5870,7 +6121,7 @@
     (property "Value" "1N4148" (at 46.355 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 46.355 158.75 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 46.355 158.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.355 158.75 90)
@@ -5893,16 +6144,16 @@
     )
   )
 
-  (symbol (lib_id "74xx:74LS04") (at 350.52 143.51 0) (unit 1)
+  (symbol (lib_id "74xx:74LS04") (at 350.52 143.51 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 081aca41-8932-4b93-9509-9358f80b8501)
-    (property "Reference" "U4" (at 349.504 143.51 0)
+    (property "Reference" "U53" (at 349.504 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LS04" (at 351.917 140.208 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 350.52 143.51 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 350.52 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 350.52 143.51 0)
@@ -5924,12 +6175,6 @@
     (pin "5" (uuid d9d41bea-e6db-4524-a78c-6c15a90ac869))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U4") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "U53") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U53") (unit 4)
         )
@@ -5940,13 +6185,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 58.42 202.565 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b85f419-2b8f-4d87-aeb1-bb299a676ca3)
-    (property "Reference" "R11" (at 55.245 200.66 0)
+    (property "Reference" "R34" (at 55.245 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 54.61 202.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 58.42 202.565 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 58.42 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 202.565 0)
@@ -5956,12 +6201,6 @@
     (pin "2" (uuid 94be5012-05f7-487d-863d-5e9724253f01))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R34") (unit 1)
         )
@@ -5978,7 +6217,7 @@
     (property "Value" "LS221" (at 250.4791 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 248.285 154.305 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 248.285 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS221" (at 248.285 154.305 0)
@@ -6018,7 +6257,7 @@
     (property "Value" "1N4148" (at 306.705 233.045 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 306.705 230.505 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 306.705 230.505 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 306.705 230.505 90)
@@ -6044,13 +6283,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 64.135 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19b88853-15fa-4e9c-8018-46abbf87e097)
-    (property "Reference" "R11" (at 60.96 135.255 0)
+    (property "Reference" "R52" (at 60.96 135.255 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 60.325 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 64.135 137.16 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 64.135 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.135 137.16 0)
@@ -6060,12 +6299,6 @@
     (pin "2" (uuid 406d5e05-202a-415b-841d-50472aeb6f45))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R52") (unit 1)
         )
@@ -6073,7 +6306,7 @@
     )
   )
 
-  (symbol (lib_id "LS_Logic:74LS13_U57") (at 257.175 74.93 0) (unit 2)
+  (symbol (lib_id "LS_Logic:74LS13_U57") (at 257.175 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1def0094-199e-4063-877c-8c9fff4ec69b)
     (property "Reference" "U57" (at 256.54 73.66 0)
@@ -6082,7 +6315,7 @@
     (property "Value" "LS13" (at 256.54 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 257.175 74.93 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 257.175 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13" (at 257.175 74.93 0)
@@ -6104,9 +6337,6 @@
     (pin "11" (uuid d2d2348f-ec65-4d65-a42e-bbb08ec3a32c))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "U57") (unit 2)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U57") (unit 1)
         )
@@ -6123,7 +6353,7 @@
     (property "Value" "LS04" (at 241.554 45.085 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 242.57 45.085 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 242.57 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 242.57 45.085 0)
@@ -6161,7 +6391,7 @@
     (property "Value" "LS04" (at 60.325 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 61.595 102.87 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 61.595 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 61.595 102.87 0)
@@ -6190,7 +6420,7 @@
     )
   )
 
-  (symbol (lib_id "DIP:Conn_02x08_U47") (at 106.045 31.75 0) (unit 3)
+  (symbol (lib_id "DIP:Conn_02x08_U47") (at 106.045 31.75 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26dfe77c-1f11-4c1c-99cb-d119ba9b4375)
     (property "Reference" "U47" (at 107.315 34.925 0)
@@ -6199,7 +6429,7 @@
     (property "Value" "SYST" (at 107.315 37.465 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 106.045 31.75 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 106.045 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.045 31.75 0)
@@ -6223,9 +6453,6 @@
     (pin "9" (uuid 51a067d6-78d8-4d7e-9e84-16d3b0e3f1c2))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U47") (unit 3)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U47") (unit 4)
         )
@@ -6236,13 +6463,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 302.895 108.585 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27efff19-8cd3-42de-8efd-f377307e7750)
-    (property "Reference" "R11" (at 299.72 106.68 0)
+    (property "Reference" "R17" (at 299.72 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K2" (at 299.085 108.585 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 302.895 108.585 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 302.895 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 302.895 108.585 0)
@@ -6252,12 +6479,6 @@
     (pin "2" (uuid 0feb4519-d004-4c68-9a27-e3640325e47f))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R17") (unit 1)
         )
@@ -6268,7 +6489,7 @@
   (symbol (lib_id "power:GND") (at 258.445 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28d76658-93c6-4433-9f88-137bc29926e3)
-    (property "Reference" "#PWR01" (at 258.445 71.755 0)
+    (property "Reference" "#PWR067" (at 258.445 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.985 67.945 0)
@@ -6283,12 +6504,6 @@
     (pin "1" (uuid 3613d813-0249-4b89-bffa-29e6bc5e3ff7))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR067") (unit 1)
         )
@@ -6305,7 +6520,7 @@
     (property "Value" "LS145" (at 127 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 132.715 69.85 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 132.715 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS145" (at 132.715 67.31 0)
@@ -6339,7 +6554,7 @@
   (symbol (lib_id "power:+5V") (at 128.905 26.67 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c66b196-d058-4e14-9673-f9c8dbda7be9)
-    (property "Reference" "#PWR019" (at 125.095 26.67 0)
+    (property "Reference" "#PWR051" (at 125.095 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 132.08 26.67 90)
@@ -6354,9 +6569,6 @@
     (pin "1" (uuid fced3eca-ba40-451e-bdaf-268aa081610e))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR051") (unit 1)
         )
@@ -6367,7 +6579,7 @@
   (symbol (lib_id "power:+5V") (at 44.45 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c6d80c4-9394-44c0-9d69-b91605769fb5)
-    (property "Reference" "#PWR019" (at 48.26 167.64 0)
+    (property "Reference" "#PWR060" (at 48.26 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 167.64 90)
@@ -6382,9 +6594,6 @@
     (pin "1" (uuid 9c513f1b-18ad-4cf2-ac58-e123f2a7f433))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR060") (unit 1)
         )
@@ -6395,13 +6604,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 124.46 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cbce0e3-27cf-4370-a7f3-e837251336fd)
-    (property "Reference" "R11" (at 121.285 25.4 90)
+    (property "Reference" "R18" (at 121.285 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 127.254 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 124.46 26.67 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 124.46 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 26.67 0)
@@ -6411,9 +6620,6 @@
     (pin "2" (uuid 6e5fc2b4-5ad8-464d-972d-db52a78ebbe1))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R18") (unit 1)
         )
@@ -6430,7 +6636,7 @@
     (property "Value" "DDEN" (at 264.16 155.575 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 257.81 151.13 0)
+    (property "Footprint" "K_1013:TestPoint" (at 257.81 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 151.13 0)
@@ -6449,7 +6655,7 @@
   (symbol (lib_id "power:GND") (at 311.15 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 300223e1-801f-443a-883c-373d4a6ba646)
-    (property "Reference" "#PWR01" (at 311.15 100.965 0)
+    (property "Reference" "#PWR069" (at 311.15 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 313.69 97.155 0)
@@ -6464,12 +6670,6 @@
     (pin "1" (uuid 6eeed782-75ec-45f8-82e3-b53ef4ddb711))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR069") (unit 1)
         )
@@ -6486,7 +6686,7 @@
     (property "Value" "LS93" (at 249.174 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 248.285 188.595 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 248.285 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93" (at 248.285 188.595 0)
@@ -6520,7 +6720,7 @@
     (property "Value" "1N4148" (at 292.1 241.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 292.1 238.76 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 292.1 238.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 292.1 238.76 90)
@@ -6546,13 +6746,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 155.575 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f076a1-14c2-4517-95be-43fe2cd030c2)
-    (property "Reference" "R11" (at 154.305 97.79 90)
+    (property "Reference" "R57" (at 154.305 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K" (at 154.305 92.71 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 155.575 95.25 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 155.575 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 155.575 95.25 0)
@@ -6562,9 +6762,6 @@
     (pin "2" (uuid 2c00616a-30fb-4653-b7d5-d6eca16cef5e))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R57") (unit 1)
         )
@@ -6575,7 +6772,7 @@
   (symbol (lib_id "power:GND") (at 273.685 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37f14099-d2bc-4d82-902d-282c64f4b89d)
-    (property "Reference" "#PWR01" (at 273.685 77.47 0)
+    (property "Reference" "#PWR065" (at 273.685 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 73.66 0)
@@ -6590,12 +6787,6 @@
     (pin "1" (uuid 478d251f-c98b-490c-83ae-71aaa0e83dfe))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR065") (unit 1)
         )
@@ -6612,7 +6803,7 @@
     (property "Value" "LS04" (at 62.484 123.825 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 63.5 123.825 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 63.5 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 63.5 123.825 0)
@@ -6650,7 +6841,7 @@
     (property "Value" "LS04" (at 54.229 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 55.245 140.97 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 55.245 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 55.245 140.97 0)
@@ -6688,7 +6879,7 @@
     (property "Value" "SDEN" (at 264.16 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 257.81 112.395 0)
+    (property "Footprint" "K_1013:TestPoint" (at 257.81 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 112.395 0)
@@ -6713,7 +6904,7 @@
     (property "Value" "LS221" (at 250.4791 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 248.285 114.935 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 248.285 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS221" (at 248.285 114.935 0)
@@ -6753,7 +6944,7 @@
     (property "Value" "PN2222A" (at 238.125 221.615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TO-92-Custom" (at 237.49 225.425 0)
+    (property "Footprint" "K_1013:TO-92-Custom" (at 237.49 225.425 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" (at 242.57 223.52 0)
@@ -6774,13 +6965,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 219.075 243.205 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f2a5a98-5cf3-47ac-a366-928abba61d7a)
-    (property "Reference" "R11" (at 217.551 242.316 0)
+    (property "Reference" "R46" (at 217.551 242.316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270R" (at 217.424 244.221 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 219.075 243.205 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 219.075 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.075 243.205 0)
@@ -6790,12 +6981,6 @@
     (pin "2" (uuid 566efdba-09aa-43fa-bb99-67a33f9ae290))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R46") (unit 1)
         )
@@ -6812,7 +6997,7 @@
     (property "Value" "470pF" (at 248.285 137.795 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 140.335 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.285 140.335 0)
@@ -6838,7 +7023,7 @@
     (property "Value" "ERROR" (at 231.14 227.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 234.95 229.87 0)
+    (property "Footprint" "K_1013:TestPoint" (at 234.95 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 229.87 0)
@@ -6857,7 +7042,7 @@
   (symbol (lib_id "power:GND") (at 73.66 118.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 422dd0ce-3150-4f1f-9189-fa628ce37f3f)
-    (property "Reference" "#PWR01" (at 73.66 125.095 0)
+    (property "Reference" "#PWR055" (at 73.66 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.374 121.285 0)
@@ -6872,12 +7057,6 @@
     (pin "1" (uuid cf8c4ef9-8743-48b1-a106-bd0ef97ddbaf))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR055") (unit 1)
         )
@@ -6894,7 +7073,7 @@
     (property "Value" "10nF" (at 265.176 236.2263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 267.97 234.95 0)
+    (property "Footprint" "K_1013:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 267.97 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 267.97 234.95 0)
@@ -6914,13 +7093,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 257.175 140.335 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48336551-1cd2-4ac5-bca0-dd7ef4f6eda9)
-    (property "Reference" "R11" (at 255.905 137.795 90)
+    (property "Reference" "R44" (at 255.905 137.795 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K5" (at 255.905 142.875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 257.175 140.335 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 257.175 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.175 140.335 0)
@@ -6930,9 +7109,6 @@
     (pin "2" (uuid 4a43c724-652b-4cd6-9002-24555fbe4cbb))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R44") (unit 1)
         )
@@ -6943,7 +7119,7 @@
   (symbol (lib_id "power:+5V") (at 302.895 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48d205f2-edad-48c1-a1d3-694c489249e5)
-    (property "Reference" "#PWR013" (at 302.895 109.22 0)
+    (property "Reference" "#PWR080" (at 302.895 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 300.355 102.87 0)
@@ -6958,12 +7134,6 @@
     (pin "1" (uuid a6195555-bc6a-440d-a0f0-80af83a21cd6))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR080") (unit 1)
         )
@@ -6974,7 +7144,7 @@
   (symbol (lib_id "power:GND") (at 86.36 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a30985e-02d2-4a09-b7a3-f35b7cd650e1)
-    (property "Reference" "#PWR01" (at 86.36 67.31 0)
+    (property "Reference" "#PWR050" (at 86.36 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 63.5 0)
@@ -6989,9 +7159,6 @@
     (pin "1" (uuid 5c236854-43b2-4969-8e4e-e8c0a1f18b58))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR050") (unit 1)
         )
@@ -7002,13 +7169,13 @@
   (symbol (lib_id "R_Potentiometer:R_Potentiometer_Small_US") (at 219.075 234.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b3f012b-9550-4466-a55f-16711199d579)
-    (property "Reference" "R27" (at 221.361 231.521 0)
+    (property "Reference" "R49" (at 221.361 231.521 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500R" (at 221.869 237.998 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:Potentiometer_Bourns_3339P_Vertical" (at 219.075 234.95 0)
+    (property "Footprint" "K_1013:Potentiometer_Bourns_3339P_Vertical" (at 219.075 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.075 234.95 0)
@@ -7019,9 +7186,6 @@
     (pin "1" (uuid 0c13ba99-f3fc-44a5-8750-2a0a4452b6e0))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R27") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R49") (unit 1)
         )
@@ -7032,13 +7196,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 67.31 202.565 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d5a72c2-0de7-42af-9139-402d6223ae77)
-    (property "Reference" "R11" (at 64.135 200.66 0)
+    (property "Reference" "R19" (at 64.135 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 63.5 202.565 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 67.31 202.565 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 67.31 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 67.31 202.565 0)
@@ -7048,12 +7212,6 @@
     (pin "2" (uuid 5cb3b7e6-bf04-416c-9cd5-5adb40fd7a1c))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R19") (unit 1)
         )
@@ -7064,13 +7222,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 46.355 218.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4db45c47-7247-455e-a788-6ca5b785c45d)
-    (property "Reference" "R11" (at 43.18 216.535 0)
+    (property "Reference" "R35" (at 43.18 216.535 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 42.545 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 46.355 218.44 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 46.355 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.355 218.44 0)
@@ -7080,12 +7238,6 @@
     (pin "2" (uuid 36535ac6-a330-45e5-8ba2-c8b347018965))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R35") (unit 1)
         )
@@ -7093,16 +7245,16 @@
     )
   )
 
-  (symbol (lib_id "74xx:74LS04") (at 268.605 125.095 0) (unit 1)
+  (symbol (lib_id "74xx:74LS04") (at 268.605 125.095 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e261425-2b6f-48d1-8994-d14291776ca3)
-    (property "Reference" "U4" (at 267.335 125.095 0)
+    (property "Reference" "U53" (at 267.335 125.095 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LS04" (at 270.002 121.793 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 268.605 125.095 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 268.605 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 268.605 125.095 0)
@@ -7124,12 +7276,6 @@
     (pin "5" (uuid d9d41bea-e6db-4524-a78c-6c15a90ac86a))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U4") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "U53") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U53") (unit 5)
         )
@@ -7140,7 +7286,7 @@
   (symbol (lib_id "power:GND") (at 91.44 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e4678c9-8e1b-4d3e-aab1-caaeab7e3d52)
-    (property "Reference" "#PWR01" (at 91.44 155.575 0)
+    (property "Reference" "#PWR049" (at 91.44 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 151.765 0)
@@ -7155,12 +7301,6 @@
     (pin "1" (uuid 3c3cf829-e8c5-4301-bded-b9b46c409365))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR049") (unit 1)
         )
@@ -7171,7 +7311,7 @@
   (symbol (lib_id "power:GND") (at 299.72 248.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e4f0a8e-8dc2-451c-b29c-bfc442fd6baa)
-    (property "Reference" "#PWR01" (at 299.72 254.635 0)
+    (property "Reference" "#PWR079" (at 299.72 254.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 296.799 250.825 0)
@@ -7186,12 +7326,6 @@
     (pin "1" (uuid d0500057-1476-4f55-80b5-4da425a9977d))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR079") (unit 1)
         )
@@ -7208,7 +7342,7 @@
     (property "Value" "7406" (at 132.08 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 133.35 113.03 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 133.35 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 133.35 113.03 0)
@@ -7240,7 +7374,7 @@
   (symbol (lib_id "power:GND") (at 45.72 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51d4f520-15a7-43f5-bcf1-c90198775a4a)
-    (property "Reference" "#PWR01" (at 45.72 143.51 0)
+    (property "Reference" "#PWR057" (at 45.72 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.434 139.7 0)
@@ -7255,12 +7389,6 @@
     (pin "1" (uuid c7611985-97a2-4bb6-b000-7f1069b306cf))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR057") (unit 1)
         )
@@ -7271,7 +7399,7 @@
   (symbol (lib_id "power:+5V") (at 46.99 107.95 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54b63342-f746-4c41-9cc6-3e1f9be2a63f)
-    (property "Reference" "#PWR019" (at 43.18 107.95 0)
+    (property "Reference" "#PWR054" (at 43.18 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 50.165 107.95 90)
@@ -7286,9 +7414,6 @@
     (pin "1" (uuid 8f501e37-6884-439e-ae02-55cd652444bb))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR054") (unit 1)
         )
@@ -7299,13 +7424,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 257.175 100.965 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 552cd16f-48ff-4a9c-8826-8d62f7c5d796)
-    (property "Reference" "R11" (at 255.905 98.425 90)
+    (property "Reference" "R43" (at 255.905 98.425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "3K" (at 255.905 103.505 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 257.175 100.965 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 257.175 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.175 100.965 0)
@@ -7315,9 +7440,6 @@
     (pin "2" (uuid 3f5affc4-eaa4-40ac-8020-0bc7ce55955d))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R43") (unit 1)
         )
@@ -7334,7 +7456,7 @@
     (property "Value" "LS13" (at 202.819 194.818 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 203.2 193.675 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 203.2 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13" (at 203.2 193.675 0)
@@ -7364,13 +7486,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 282.575 243.205 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d9f2871-5c7d-4f1a-972b-770d5effc773)
-    (property "Reference" "R11" (at 286.131 244.602 0)
+    (property "Reference" "R25" (at 286.131 244.602 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "820K" (at 286.766 246.507 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 282.575 243.205 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0204_L3.6mm_D2.5mm_P12.70mm_Horizontal" (at 282.575 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 282.575 243.205 0)
@@ -7380,12 +7502,6 @@
     (pin "2" (uuid 7fabf225-76ea-4557-b890-2f3d6b07ba5d))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R25") (unit 1)
         )
@@ -7396,7 +7512,7 @@
   (symbol (lib_id "power:+5V") (at 132.715 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e781ac7-7927-41f5-a572-e73208bb9e82)
-    (property "Reference" "#PWR013" (at 132.715 52.705 0)
+    (property "Reference" "#PWR046" (at 132.715 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 130.175 46.355 0)
@@ -7411,12 +7527,6 @@
     (pin "1" (uuid 331e25ee-5832-4153-a7c1-d892915552e8))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR046") (unit 1)
         )
@@ -7433,7 +7543,7 @@
     (property "Value" "1000pF" (at 274.447 246.634 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 273.685 243.205 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 273.685 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 273.685 243.205 0)
@@ -7453,7 +7563,7 @@
   (symbol (lib_id "power:GND") (at 49.53 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 653a6db5-bfca-4c51-941b-a27f23735ecc)
-    (property "Reference" "#PWR01" (at 49.53 201.93 0)
+    (property "Reference" "#PWR061" (at 49.53 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 198.12 0)
@@ -7468,12 +7578,6 @@
     (pin "1" (uuid b1ca927c-5105-4cf8-b1fe-22bdc7a2f538))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR061") (unit 1)
         )
@@ -7484,7 +7588,7 @@
   (symbol (lib_id "power:+5V") (at 67.31 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66d04bcc-6740-43b4-88fe-2a72186a0ad7)
-    (property "Reference" "#PWR013" (at 67.31 199.39 0)
+    (property "Reference" "#PWR062" (at 67.31 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.77 193.04 0)
@@ -7499,12 +7603,6 @@
     (pin "1" (uuid 2f8d4892-21b7-4ad8-97b5-0664b40f2e07))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR062") (unit 1)
         )
@@ -7521,7 +7619,7 @@
     (property "Value" "1N4148" (at 292.1 233.045 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 292.1 230.505 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 292.1 230.505 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 292.1 230.505 90)
@@ -7553,7 +7651,7 @@
     (property "Value" "LS04" (at 217.17 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 218.44 69.215 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 218.44 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 218.44 69.215 0)
@@ -7591,7 +7689,7 @@
     (property "Value" "PN2907" (at 250.698 231.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TO-92-Custom" (at 250.19 233.045 0)
+    (property "Footprint" "K_1013:TO-92-Custom" (at 250.19 233.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 230.505 0)
@@ -7612,13 +7710,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 49.53 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75f595b3-95f2-401e-8085-440adb038795)
-    (property "Reference" "R11" (at 46.355 186.055 0)
+    (property "Reference" "R37" (at 46.355 186.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 45.72 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 49.53 187.96 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 49.53 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 49.53 187.96 0)
@@ -7628,12 +7726,6 @@
     (pin "2" (uuid f6ea1e42-1b89-4b33-8283-0885780c19e7))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R37") (unit 1)
         )
@@ -7644,13 +7736,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 299.72 243.205 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77ee90b1-b3cb-405a-a337-a174c661826f)
-    (property "Reference" "R11" (at 301.244 244.602 0)
+    (property "Reference" "R23" (at 301.244 244.602 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4K7" (at 301.244 246.507 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 299.72 243.205 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 299.72 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 299.72 243.205 0)
@@ -7660,12 +7752,6 @@
     (pin "2" (uuid 19f1fb87-2b41-4f37-96f0-47aa60c043a1))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R23") (unit 1)
         )
@@ -7682,7 +7768,7 @@
     (property "Value" "LS368" (at 132.715 37.846 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 132.715 31.75 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 132.715 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368" (at 132.715 36.83 0)
@@ -7716,7 +7802,7 @@
   (symbol (lib_id "power:+5V") (at 273.685 100.965 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7dff4a66-850e-4c0c-b473-78574f7fc375)
-    (property "Reference" "#PWR019" (at 269.875 100.965 0)
+    (property "Reference" "#PWR071" (at 269.875 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 276.86 100.965 90)
@@ -7731,9 +7817,6 @@
     (pin "1" (uuid 004c7d5f-01a0-4823-9a03-5be73b155291))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR071") (unit 1)
         )
@@ -7750,7 +7833,7 @@
     (property "Value" "470pF" (at 248.92 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 94.615 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.285 94.615 0)
@@ -7776,7 +7859,7 @@
     (property "Value" "DISK" (at 55.88 224.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 54.61 227.33 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 54.61 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 227.33 0)
@@ -7810,7 +7893,7 @@
   (symbol (lib_id "power:GND") (at 99.06 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86897aa0-d885-4dd3-b131-a48923346904)
-    (property "Reference" "#PWR01" (at 99.06 40.64 0)
+    (property "Reference" "#PWR052" (at 99.06 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 36.83 0)
@@ -7825,12 +7908,6 @@
     (pin "1" (uuid e1a9a9dd-28a7-417d-a004-c0a849309eb4))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR052") (unit 1)
         )
@@ -7847,7 +7924,7 @@
     (property "Value" "100pF" (at 346.0813 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 346.075 53.34 0)
+    (property "Footprint" "K_1013:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 346.075 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 346.075 53.34 0)
@@ -7867,7 +7944,7 @@
   (symbol (lib_id "power:+5V") (at 273.685 140.335 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d98620a-b2a0-40b1-8574-01c44dad22d7)
-    (property "Reference" "#PWR019" (at 269.875 140.335 0)
+    (property "Reference" "#PWR072" (at 269.875 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 276.86 140.335 90)
@@ -7882,9 +7959,6 @@
     (pin "1" (uuid 384bc583-1aee-49c9-8864-36de5483e203))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR072") (unit 1)
         )
@@ -7901,7 +7975,7 @@
     (property "Value" "~{FAULT_RESET}" (at 161.29 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 171.45 184.15 0)
+    (property "Footprint" "K_1013:TestPoint" (at 171.45 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 184.15 0)
@@ -7926,7 +8000,7 @@
     (property "Value" "7406" (at 335.915 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 337.185 68.58 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 337.185 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 337.185 68.58 0)
@@ -7958,13 +8032,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 258.445 243.205 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98f2e206-2502-47a5-be36-fb947c35e44c)
-    (property "Reference" "R11" (at 261.62 240.538 0)
+    (property "Reference" "R26" (at 261.62 240.538 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 260.985 242.443 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 258.445 243.205 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0204_L3.6mm_D2.5mm_P12.70mm_Horizontal" (at 258.445 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 258.445 243.205 0)
@@ -7974,12 +8048,6 @@
     (pin "2" (uuid 49de3424-87bc-45c3-b56b-983150838d09))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R26") (unit 1)
         )
@@ -7990,13 +8058,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 45.72 133.985 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d3be34f-2d80-4265-89ce-3b45e5a29ef6)
-    (property "Reference" "R11" (at 42.545 133.985 0)
+    (property "Reference" "R39" (at 42.545 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 49.53 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 45.72 133.985 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 45.72 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 133.985 0)
@@ -8006,12 +8074,6 @@
     (pin "2" (uuid c3df591d-abe4-464a-91ce-b94ac56b02e6))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R39") (unit 1)
         )
@@ -8028,7 +8090,7 @@
     (property "Value" "74LS173" (at 271.78 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 273.685 47.625 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 273.685 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS173" (at 273.685 47.625 0)
@@ -8062,7 +8124,7 @@
   (symbol (lib_id "power:+5V") (at 311.15 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f5eaf55-064c-41d5-8da5-cb4e4eb219e8)
-    (property "Reference" "#PWR013" (at 311.15 41.91 0)
+    (property "Reference" "#PWR066" (at 311.15 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 308.61 35.56 0)
@@ -8077,12 +8139,6 @@
     (pin "1" (uuid c8ab467e-751e-4e9f-903b-3a17c0626ed6))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR066") (unit 1)
         )
@@ -8099,7 +8155,7 @@
     (property "Value" "LS51" (at 304.546 181.102 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 301.625 186.055 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 301.625 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" (at 301.625 186.055 0)
@@ -8137,7 +8193,7 @@
     (property "Value" "LS368" (at 133.985 190.246 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 133.985 184.15 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 133.985 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368" (at 133.985 189.23 0)
@@ -8171,7 +8227,7 @@
   (symbol (lib_id "power:GND") (at 233.68 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5353ba7-10ea-4ae7-afc0-2884eb8837ae)
-    (property "Reference" "#PWR01" (at 233.68 193.04 0)
+    (property "Reference" "#PWR077" (at 233.68 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.521 189.23 0)
@@ -8186,9 +8242,6 @@
     (pin "1" (uuid b8a16b57-c12b-4a78-b065-5a5e1ccd0737))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR077") (unit 1)
         )
@@ -8205,7 +8258,7 @@
     (property "Value" "7406" (at 132.08 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 133.35 128.27 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 133.35 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 133.35 128.27 0)
@@ -8237,7 +8290,7 @@
   (symbol (lib_id "power:+5V") (at 248.285 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aae93c63-303e-47c1-99dd-97da4a152fbe)
-    (property "Reference" "#PWR013" (at 248.285 179.07 0)
+    (property "Reference" "#PWR075" (at 248.285 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 245.745 172.72 0)
@@ -8252,12 +8305,6 @@
     (pin "1" (uuid 98d09b8e-6683-4229-bbbf-b523dbe6d57d))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR075") (unit 1)
         )
@@ -8268,13 +8315,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 294.005 108.585 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abd9f556-2a16-4a55-99c4-b8de8bf15afa)
-    (property "Reference" "R11" (at 290.83 106.68 0)
+    (property "Reference" "R16" (at 290.83 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K2" (at 290.195 108.585 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 294.005 108.585 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 294.005 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 294.005 108.585 0)
@@ -8284,12 +8331,6 @@
     (pin "2" (uuid 3ee3e0cb-6eb2-411d-8457-6ee5b6089821))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R16") (unit 1)
         )
@@ -8300,7 +8341,7 @@
   (symbol (lib_id "power:GND") (at 354.33 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abf56908-9643-4ac1-a861-c909d9937ef1)
-    (property "Reference" "#PWR01" (at 354.33 60.325 0)
+    (property "Reference" "#PWR070" (at 354.33 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 356.87 56.515 0)
@@ -8315,12 +8356,6 @@
     (pin "1" (uuid 8d1995d4-bf38-4008-8b75-78322b4a2e22))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR070") (unit 1)
         )
@@ -8331,13 +8366,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 46.355 173.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abf63248-6e6d-451d-9513-ec6f5b0e7400)
-    (property "Reference" "R11" (at 43.18 171.45 0)
+    (property "Reference" "R36" (at 43.18 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 42.545 173.355 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 46.355 173.355 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 46.355 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.355 173.355 0)
@@ -8347,12 +8382,6 @@
     (pin "2" (uuid 7a0ff770-4129-4730-8972-18a16bd46540))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R36") (unit 1)
         )
@@ -8369,7 +8398,7 @@
     (property "Value" "68pF" (at 314.706 122.5613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 317.5 121.285 0)
+    (property "Footprint" "K_1013:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 317.5 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 317.5 121.285 0)
@@ -8395,7 +8424,7 @@
     (property "Value" "1000pF" (at 266.319 246.507 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 267.97 243.205 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 267.97 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 267.97 243.205 0)
@@ -8415,7 +8444,7 @@
   (symbol (lib_id "power:+5V") (at 46.99 116.84 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af4d42d5-e382-4ac1-88c6-df01bfdc9740)
-    (property "Reference" "#PWR019" (at 43.18 116.84 0)
+    (property "Reference" "#PWR056" (at 43.18 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 50.165 116.84 90)
@@ -8430,9 +8459,6 @@
     (pin "1" (uuid cb6135ab-c95c-4c23-a146-e6ef6c290a1e))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR056") (unit 1)
         )
@@ -8449,7 +8475,7 @@
     (property "Value" "7406" (at 132.08 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 133.35 120.65 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 133.35 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 133.35 120.65 0)
@@ -8481,13 +8507,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 252.73 219.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1a913dc-4e17-478a-84f4-57744c1b339a)
-    (property "Reference" "R11" (at 249.555 217.805 0)
+    (property "Reference" "R50" (at 249.555 217.805 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51K" (at 248.92 219.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 252.73 219.71 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 252.73 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 219.71 0)
@@ -8497,12 +8523,6 @@
     (pin "2" (uuid 4e7fcff0-2588-404f-a89b-d8332f0f5e38))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R50") (unit 1)
         )
@@ -8513,13 +8533,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 225.425 145.415 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b472b3e0-291e-4879-a7a8-b3f7ac34e2ab)
-    (property "Reference" "R11" (at 222.25 143.51 0)
+    (property "Reference" "R41" (at 222.25 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 221.615 145.415 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 225.425 145.415 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 225.425 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 225.425 145.415 0)
@@ -8529,12 +8549,6 @@
     (pin "2" (uuid 2d9d638d-5880-438a-bca8-c06160297bc5))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R41") (unit 1)
         )
@@ -8545,13 +8559,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 221.615 153.035 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b73fbacb-234f-4c69-8be0-879d07df2000)
-    (property "Reference" "R11" (at 218.44 154.94 0)
+    (property "Reference" "R40" (at 218.44 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 217.805 153.035 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 221.615 153.035 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 221.615 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 221.615 153.035 0)
@@ -8561,12 +8575,6 @@
     (pin "2" (uuid e2a08aa6-7c21-42bc-aa0d-14301a892d57))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R40") (unit 1)
         )
@@ -8583,7 +8591,7 @@
     (property "Value" "1N4148" (at 306.705 241.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 306.705 238.76 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 306.705 238.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 306.705 238.76 90)
@@ -8615,7 +8623,7 @@
     (property "Value" "7406" (at 132.08 141.605 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 133.35 141.605 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 133.35 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 133.35 141.605 0)
@@ -8647,7 +8655,7 @@
   (symbol (lib_id "power:+5V") (at 225.425 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid babb103b-3bc6-4296-a756-91fe822a7a96)
-    (property "Reference" "#PWR013" (at 225.425 144.78 0)
+    (property "Reference" "#PWR073" (at 225.425 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 222.885 138.43 0)
@@ -8662,12 +8670,6 @@
     (pin "1" (uuid 210a9338-5f02-4b73-9094-c2adbaeac6ca))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR073") (unit 1)
         )
@@ -8684,7 +8686,7 @@
     (property "Value" "LS368" (at 133.985 220.726 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 133.985 214.63 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 133.985 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368" (at 133.985 219.71 0)
@@ -8718,7 +8720,7 @@
   (symbol (lib_id "power:GND") (at 221.615 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be3fdc0f-7bc8-4ad8-8227-7d850bcbae09)
-    (property "Reference" "#PWR01" (at 221.615 164.465 0)
+    (property "Reference" "#PWR074" (at 221.615 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.155 160.655 0)
@@ -8733,12 +8735,6 @@
     (pin "1" (uuid 76c907d3-ebbe-4619-83df-c1e6573d8dfc))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR074") (unit 1)
         )
@@ -8749,7 +8745,7 @@
   (symbol (lib_id "power:GND") (at 116.84 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2dbba00-c835-496b-a86b-de28d31e9353)
-    (property "Reference" "#PWR01" (at 116.84 76.835 0)
+    (property "Reference" "#PWR045" (at 116.84 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 74.295 0)
@@ -8764,9 +8760,6 @@
     (pin "1" (uuid 5eff0cba-e71b-41c9-8524-ac48da1a6a23))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR045") (unit 1)
         )
@@ -8777,7 +8770,7 @@
   (symbol (lib_id "power:+5V") (at 62.23 132.715 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c39dd8af-e913-4896-b544-74c96ec7c7cd)
-    (property "Reference" "#PWR019" (at 66.04 132.715 0)
+    (property "Reference" "#PWR058" (at 66.04 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 59.055 132.715 90)
@@ -8792,9 +8785,6 @@
     (pin "1" (uuid e94fdf9f-7511-4483-871a-b6aafa5dd9a8))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR058") (unit 1)
         )
@@ -8805,13 +8795,13 @@
   (symbol (lib_id "R_Potentiometer:R_Potentiometer_Small_US") (at 264.795 140.335 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3eb99d2-32ac-4d3d-b44d-a853e1d32a22)
-    (property "Reference" "R27" (at 264.795 137.795 90)
+    (property "Reference" "R45" (at 264.795 137.795 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500R" (at 267.97 142.875 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:Potentiometer_Bourns_3339P_Vertical" (at 264.795 140.335 0)
+    (property "Footprint" "K_1013:Potentiometer_Bourns_3339P_Vertical" (at 264.795 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.795 140.335 0)
@@ -8822,9 +8812,6 @@
     (pin "1" (uuid 88d4dac7-24f4-45a6-a74d-5cd256b4800b))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R27") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R45") (unit 1)
         )
@@ -8841,7 +8828,7 @@
     (property "Value" "RAW" (at 221.615 112.395 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 226.695 104.775 0)
+    (property "Footprint" "K_1013:TestPoint" (at 226.695 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 226.695 104.775 0)
@@ -8866,7 +8853,7 @@
     (property "Value" "470pF" (at 235.585 250.825 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 234.95 247.65 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 234.95 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 247.65 0)
@@ -8886,13 +8873,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 41.91 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c651c2ac-c815-4b46-bbae-104ef553c9ef)
-    (property "Reference" "R11" (at 38.735 106.68 90)
+    (property "Reference" "R56" (at 38.735 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 44.704 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 41.91 107.95 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 41.91 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 107.95 0)
@@ -8902,9 +8889,6 @@
     (pin "2" (uuid 264697ee-93f0-4883-8774-9c43b103fa25))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R56") (unit 1)
         )
@@ -8921,7 +8905,7 @@
     (property "Value" "READ DATA" (at 355.727 106.553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 359.41 108.585 0)
+    (property "Footprint" "K_1013:TestPoint" (at 359.41 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 359.41 108.585 0)
@@ -8946,7 +8930,7 @@
     (property "Value" "74LS153" (at 313.3441 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 311.15 66.04 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 311.15 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS153" (at 311.15 66.04 0)
@@ -8977,7 +8961,7 @@
     )
   )
 
-  (symbol (lib_id "DIP:Conn_02x08_U47") (at 151.765 141.605 0) (mirror y) (unit 3)
+  (symbol (lib_id "DIP:Conn_02x08_U47") (at 151.765 141.605 0) (mirror y) (unit 6)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c91f08e4-c163-4f72-a2de-aa842801dbe7)
     (property "Reference" "U47" (at 150.495 139.065 0)
@@ -8986,7 +8970,7 @@
     (property "Value" "SYST" (at 150.495 144.145 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 151.765 141.605 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 151.765 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.765 141.605 0)
@@ -9010,9 +8994,6 @@
     (pin "9" (uuid 51a067d6-78d8-4d7e-9e84-16d3b0e3f1c3))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U47") (unit 3)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U47") (unit 6)
         )
@@ -9020,7 +9001,7 @@
     )
   )
 
-  (symbol (lib_id "DIP:Conn_02x08_U47") (at 358.775 40.005 180) (unit 3)
+  (symbol (lib_id "DIP:Conn_02x08_U47") (at 358.775 40.005 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid caaa5638-e6b9-4bb9-8425-e1f6bc8d0956)
     (property "Reference" "U47" (at 357.505 45.72 0)
@@ -9029,7 +9010,7 @@
     (property "Value" "SYST" (at 357.505 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 358.775 40.005 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 358.775 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 358.775 40.005 0)
@@ -9053,9 +9034,6 @@
     (pin "9" (uuid 51a067d6-78d8-4d7e-9e84-16d3b0e3f1c4))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U47") (unit 3)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U47") (unit 1)
         )
@@ -9072,7 +9050,7 @@
     (property "Value" "LS04" (at 106.299 227.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 107.315 227.33 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 107.315 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 107.315 227.33 0)
@@ -9110,7 +9088,7 @@
     (property "Value" "47nF" (at 83.82 59.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 86.36 57.785 0)
+    (property "Footprint" "K_1013:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 86.36 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 86.36 57.785 0)
@@ -9136,7 +9114,7 @@
     (property "Value" "DISK" (at 222.885 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 221.615 50.165 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 221.615 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 221.615 50.165 0)
@@ -9176,7 +9154,7 @@
     (property "Value" "470pF" (at 248.92 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 134.62 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.285 134.62 0)
@@ -9196,7 +9174,7 @@
   (symbol (lib_id "power:+5V") (at 299.72 213.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2a96260-5f1b-44da-952e-7b5449563aad)
-    (property "Reference" "#PWR013" (at 299.72 217.805 0)
+    (property "Reference" "#PWR078" (at 299.72 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 297.18 211.455 0)
@@ -9211,12 +9189,6 @@
     (pin "1" (uuid 2f41ca7c-0a6a-45c3-be45-722ce854fdc7))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR078") (unit 1)
         )
@@ -9233,7 +9205,7 @@
     (property "Value" "LS04" (at 62.865 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 63.5 110.49 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 63.5 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 63.5 110.49 0)
@@ -9265,7 +9237,7 @@
   (symbol (lib_id "power:+5V") (at 273.685 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dafaff2f-8d32-4276-8ab3-717c871da2cf)
-    (property "Reference" "#PWR013" (at 273.685 27.94 0)
+    (property "Reference" "#PWR064" (at 273.685 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 271.145 21.59 0)
@@ -9280,12 +9252,6 @@
     (pin "1" (uuid fcbb8dd6-3bf9-4515-b3ed-e4f43358ef52))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR064") (unit 1)
         )
@@ -9296,7 +9262,7 @@
   (symbol (lib_id "power:GND") (at 132.715 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db041151-aa71-4e02-8eb1-5fb096a7dd88)
-    (property "Reference" "#PWR01" (at 132.715 94.615 0)
+    (property "Reference" "#PWR047" (at 132.715 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.255 90.805 0)
@@ -9311,12 +9277,6 @@
     (pin "1" (uuid 2f67b831-6add-4837-85cb-65652a3a7806))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR047") (unit 1)
         )
@@ -9327,13 +9287,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 58.42 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcc6280b-9df9-4df6-8791-ff31ae6baa9b)
-    (property "Reference" "R11" (at 55.245 186.055 0)
+    (property "Reference" "R33" (at 55.245 186.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330R" (at 54.61 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 58.42 187.96 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 58.42 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 187.96 0)
@@ -9343,12 +9303,6 @@
     (pin "2" (uuid d4916ba6-c2ec-4ad7-a537-ba1f658aad23))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R33") (unit 1)
         )
@@ -9356,16 +9310,16 @@
     )
   )
 
-  (symbol (lib_id "74xx:74LS04") (at 350.52 180.975 0) (unit 1)
+  (symbol (lib_id "74xx:74LS04") (at 350.52 180.975 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd3be8a0-63ac-4a23-b0ab-995e18db7e4d)
-    (property "Reference" "U4" (at 349.504 180.975 0)
+    (property "Reference" "U53" (at 349.504 180.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LS04" (at 351.917 177.673 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 350.52 180.975 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 350.52 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04" (at 350.52 180.975 0)
@@ -9387,12 +9341,6 @@
     (pin "5" (uuid d9d41bea-e6db-4524-a78c-6c15a90ac86b))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U4") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "U53") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U53") (unit 3)
         )
@@ -9409,7 +9357,7 @@
     (property "Value" "470pF" (at 248.92 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 100.965 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 248.285 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.285 100.965 0)
@@ -9435,7 +9383,7 @@
     (property "Value" "1N4148" (at 132.08 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:D_DO-35_SOD27_P12.70mm_Horizontal" (at 132.08 95.25 90)
+    (property "Footprint" "K_1013:D_DO-35_SOD27_P12.70mm_Horizontal" (at 132.08 95.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 95.25 90)
@@ -9467,7 +9415,7 @@
     (property "Value" "LS51" (at 304.419 122.428 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 301.625 127.635 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 301.625 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" (at 301.625 127.635 0)
@@ -9499,7 +9447,7 @@
   (symbol (lib_id "power:GND") (at 287.02 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5456e8b-1de6-49e6-bdbe-c5de09de13d6)
-    (property "Reference" "#PWR01" (at 287.02 110.49 0)
+    (property "Reference" "#PWR081" (at 287.02 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.734 106.68 0)
@@ -9514,12 +9462,6 @@
     (pin "1" (uuid 42bea8bb-3054-4dbb-a0fc-0966853ebc7b))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR081") (unit 1)
         )
@@ -9527,7 +9469,7 @@
     )
   )
 
-  (symbol (lib_id "LS_Logic:74LS13_U56") (at 327.66 111.125 0) (unit 1)
+  (symbol (lib_name "74LS13_U56_1") (lib_id "LS_Logic:74LS13_U56") (at 327.66 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e54f216d-efb8-448e-95c5-caa4f7e99308)
     (property "Reference" "U56" (at 327.279 109.728 0)
@@ -9536,7 +9478,7 @@
     (property "Value" "LS13" (at 327.279 112.268 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-14_W7.62mm_LongPads" (at 327.66 111.125 0)
+    (property "Footprint" "K_1013:DIP-14_W7.62mm_LongPads" (at 327.66 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13" (at 327.66 111.125 0)
@@ -9566,13 +9508,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 299.72 223.52 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e580da13-93a3-47b9-ae3b-2d107e4fb12f)
-    (property "Reference" "R11" (at 302.895 221.615 0)
+    (property "Reference" "R24" (at 302.895 221.615 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4K7" (at 303.53 223.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 299.72 223.52 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 299.72 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 299.72 223.52 0)
@@ -9582,12 +9524,6 @@
     (pin "2" (uuid ecddf063-f122-457f-9e53-b60babd83247))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R24") (unit 1)
         )
@@ -9598,13 +9534,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 45.72 120.015 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7175aaa-9bb4-40bf-926c-55fde268a5e8)
-    (property "Reference" "R11" (at 42.545 120.015 0)
+    (property "Reference" "R38" (at 42.545 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 49.53 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 45.72 120.015 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 45.72 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 120.015 0)
@@ -9614,12 +9550,6 @@
     (pin "2" (uuid 5fda1492-b33f-47f7-9a78-ae4ed1ce3394))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R38") (unit 1)
         )
@@ -9630,13 +9560,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 229.87 234.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8107571-4799-4ac6-a9dc-598fee5f232e)
-    (property "Reference" "R11" (at 228.346 234.061 0)
+    (property "Reference" "R47" (at 228.346 234.061 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K2" (at 228.219 235.966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 229.87 234.95 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 229.87 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 229.87 234.95 0)
@@ -9646,12 +9576,6 @@
     (pin "2" (uuid abab845d-7073-4434-b071-943d719adbdb))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R47") (unit 1)
         )
@@ -9662,13 +9586,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 55.245 173.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e97a3884-e14f-4e26-a6d4-845c608d551a)
-    (property "Reference" "R11" (at 52.07 171.45 0)
+    (property "Reference" "R32" (at 52.07 171.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 51.435 173.355 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 55.245 173.355 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 55.245 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.245 173.355 0)
@@ -9678,12 +9602,6 @@
     (pin "2" (uuid 8af29a7c-72b5-426f-82f6-f27d44294a91))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R32") (unit 1)
         )
@@ -9694,7 +9612,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 95.25 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9d4c394-effa-4eea-8502-1fb1d269220a)
-    (property "Reference" "#PWR019" (at 161.29 95.25 0)
+    (property "Reference" "#PWR059" (at 161.29 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 168.275 95.25 90)
@@ -9709,9 +9627,6 @@
     (pin "1" (uuid 049f3789-0ddc-4e7c-a4bd-4244dfdd0cde))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR059") (unit 1)
         )
@@ -9722,13 +9637,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 240.03 234.95 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea5b9fbf-4ce0-4587-9363-844fcd4fc9a2)
-    (property "Reference" "R11" (at 241.554 234.061 0)
+    (property "Reference" "R48" (at 241.554 234.061 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K2" (at 241.681 235.966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 240.03 234.95 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0204_L3.6mm_D2.5mm_P12.70mm_Horizontal" (at 240.03 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 234.95 0)
@@ -9738,12 +9653,6 @@
     (pin "2" (uuid 72b498af-b658-4ffd-8483-4969111fadf7))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R48") (unit 1)
         )
@@ -9760,7 +9669,7 @@
     (property "Value" "WINDOW" (at 223.393 167.513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 226.695 169.545 0)
+    (property "Footprint" "K_1013:TestPoint" (at 226.695 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 226.695 169.545 0)
@@ -9785,7 +9694,7 @@
     (property "Value" "uPD765" (at 93.6341 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-40_W15.24mm_LongPads" (at 91.44 90.17 0)
+    (property "Footprint" "K_1013:DIP-40_W15.24mm_LongPads" (at 91.44 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.cpcwiki.eu/imgs/f/f3/UPD765_Datasheet_OCRed.pdf" (at 91.44 90.17 0)
@@ -9843,7 +9752,7 @@
   (symbol (lib_id "power:+5V") (at 91.44 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef165fa1-4fd1-447c-88db-52046e762827)
-    (property "Reference" "#PWR013" (at 91.44 57.15 0)
+    (property "Reference" "#PWR048" (at 91.44 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 88.9 50.8 0)
@@ -9858,12 +9767,6 @@
     (pin "1" (uuid 45a1176e-ad7e-44c4-b645-faabbc71288d))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR048") (unit 1)
         )
@@ -9880,7 +9783,7 @@
     (property "Value" "10nF" (at 276.479 236.2263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 273.685 234.95 0)
+    (property "Footprint" "K_1013:C_Disc_D7.0mm_W2.5mm_P6.35mm" (at 273.685 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 273.685 234.95 0)
@@ -9906,7 +9809,7 @@
     (property "Value" "LS109" (at 362.8741 125.603 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 360.68 133.35 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 360.68 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS109" (at 360.68 133.35 0)
@@ -9937,7 +9840,7 @@
     )
   )
 
-  (symbol (lib_id "DIP:Conn_02x08_U47") (at 232.41 78.74 0) (unit 3)
+  (symbol (lib_id "DIP:Conn_02x08_U47") (at 232.41 78.74 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7e593eb-42c8-4927-8d04-5a055fca50ae)
     (property "Reference" "U47" (at 233.68 71.12 0)
@@ -9946,7 +9849,7 @@
     (property "Value" "SYST" (at 233.68 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 232.41 78.74 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 232.41 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 232.41 78.74 0)
@@ -9970,9 +9873,6 @@
     (pin "9" (uuid 51a067d6-78d8-4d7e-9e84-16d3b0e3f1c5))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "U47") (unit 3)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "U47") (unit 2)
         )
@@ -9983,7 +9883,7 @@
   (symbol (lib_id "power:GND") (at 73.66 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fad5a84a-d035-4b2d-b176-d6795bf2c426)
-    (property "Reference" "#PWR01" (at 73.66 104.775 0)
+    (property "Reference" "#PWR053" (at 73.66 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.374 100.965 0)
@@ -9998,12 +9898,6 @@
     (pin "1" (uuid 0725a22d-5b2d-4119-834e-d2c6af3bc691))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR053") (unit 1)
         )
@@ -10020,7 +9914,7 @@
     (property "Value" "LS109" (at 362.8741 162.433 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:DIP-16_W7.62mm_LongPads" (at 360.68 170.18 0)
+    (property "Footprint" "K_1013:DIP-16_W7.62mm_LongPads" (at 360.68 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS109" (at 360.68 170.18 0)
@@ -10054,7 +9948,7 @@
   (symbol (lib_id "power:GND") (at 46.355 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe1e14fa-f230-4552-a3ed-8ee9e58844fa)
-    (property "Reference" "#PWR01" (at 46.355 234.95 0)
+    (property "Reference" "#PWR063" (at 46.355 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.895 231.14 0)
@@ -10069,12 +9963,6 @@
     (pin "1" (uuid 7f8cc011-533d-4ec4-b4cc-848eb3f6cbde))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "#PWR063") (unit 1)
         )
@@ -10085,13 +9973,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 264.16 223.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff20fea9-b3f5-4cfa-a2e1-6e947f5f4dac)
-    (property "Reference" "R11" (at 260.985 221.615 0)
+    (property "Reference" "R51" (at 260.985 221.615 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "820K" (at 260.35 223.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 264.16 223.52 0)
+    (property "Footprint" "K_1013:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 264.16 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.16 223.52 0)
@@ -10101,12 +9989,6 @@
     (pin "2" (uuid e15b86b1-5ce6-4aaf-9cf8-0a42f4ceda67))
     (instances
       (project "k-1013-floppy-controller-replica"
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/63337c1a-8bce-409c-9d47-d446d2a9dcdf"
-          (reference "R11") (unit 1)
-        )
-        (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/7df61ff2-2ba7-476e-9501-875c3d0bbcd8"
-          (reference "R29") (unit 1)
-        )
         (path "/fd32f695-7ebb-4fd1-9f97-30295f423eb1/dc38681e-d4c3-457a-931d-b637a9faa354"
           (reference "R51") (unit 1)
         )
@@ -10123,7 +10005,7 @@
     (property "Value" "~{FAULT_SNS}" (at 17.78 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "K_1013_Jumper:TestPoint" (at 27.94 179.07 0)
+    (property "Footprint" "K_1013:TestPoint" (at 27.94 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 179.07 0)
@@ -10148,7 +10030,7 @@
     (property "Value" "470pF" (at 235.585 241.935 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "K_1013_Jumper:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 234.95 238.76 0)
+    (property "Footprint" "K_1013:C_Axial_L10.3mm_D4.7mm_P12.70mm_Horizontal" (at 234.95 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.95 238.76 0)
