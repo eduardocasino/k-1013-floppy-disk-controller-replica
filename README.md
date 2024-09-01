@@ -8,12 +8,14 @@ This aims to be a faithful replica of the K-1013 Floppy Disk Controller, an exte
 
 ### Status
 
-First version of the schematic is now completed. Most probably it will change as I check it against the real board.
+Schematic is completed and checked against the real board.
 
-Routing of the bottom side is completed. Front is about 25% completed:
+Routing is completed, still in revision.
 
 ![front](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-front.png?raw=true)
 ![back](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-back.png?raw=true)
+![components](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-components.png?raw=true)
+
 
 **WARNING: This design is a work-in-progress has not been tested yet. Use at your own risk!**
 
