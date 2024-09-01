@@ -40,7 +40,7 @@
   (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp c593dffa-6c52-401b-bc76-339e8a2fa0f4))
   (pad "1" smd circle (at 0 0 90) (size 1.8 1.8) (layers "F.Cu")
     (thermal_bridge_angle 90) (tstamp 4a4e693a-2992-4928-b216-c096cf62718c))
-  (pad "2" smd oval (at 0 0 90) (size 3 1.2) (layers "B.Cu") (tstamp d540addc-a438-4011-a52f-b93348d07a6d))
+  (pad "1" smd oval (at 0 0 90) (size 3 1.2) (layers "B.Cu") (tstamp d540addc-a438-4011-a52f-b93348d07a6d))
   (pad "2" thru_hole circle (at 2.54 0) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4a9b2b7e-c15c-41f3-a638-7c804d7318c0))
   (pad "2" smd circle (at 2.54 0 90) (size 1.8 1.8) (layers "F.Cu")
     (thermal_bridge_angle 90) (tstamp 9b68b6d3-dc81-4287-b5eb-b14c9d073930))

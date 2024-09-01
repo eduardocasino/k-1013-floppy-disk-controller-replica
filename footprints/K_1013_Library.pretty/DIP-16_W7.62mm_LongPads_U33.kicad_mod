@@ -126,7 +126,7 @@
     (thermal_bridge_angle 90) (tstamp c7661105-7153-4595-8c85-045e1d66abdb))
   (pad "4" smd circle (at 0 7.62) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp d1a5ba96-c367-487b-892b-06ed8dfb2c15))
-  (pad "4" smd oval (at 0 7.62) (size 3 1.2) (layers "B.Cu" "F.Mask") (tstamp 3b6a6443-edbc-49ba-80cf-993b28d39962))
+  (pad "4" smd oval (at 0 7.62) (size 3 1.2) (layers "B.Cu" "B.Mask") (tstamp 3b6a6443-edbc-49ba-80cf-993b28d39962))
   (pad "5" thru_hole circle (at 0 10.16) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
     (thermal_bridge_angle 90) (tstamp 5e0bd02c-f277-4e50-b823-29348f320a5d))
   (pad "5" smd circle (at 0 10.16) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
@@ -528,7 +528,7 @@
   (pad "16" smd circle (at 7.62 0) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp b2ac8883-714b-42d6-9eb4-36a682bab2a2))
   (pad "16" smd oval (at 7.62 0) (size 3 1.2) (layers "B.Cu" "B.Mask") (tstamp 97df29ef-bea3-4607-b73f-587b02bbeb05))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+  (model "${KIPRJMOD}/3dmodels/DIP-16 W7.62mm IC with Socket.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

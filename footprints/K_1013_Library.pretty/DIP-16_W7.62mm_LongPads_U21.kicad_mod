@@ -183,7 +183,7 @@
     ) (tstamp f795cdf6-1d74-46ec-aeda-eeb73d9fe3ad))
   (pad "16" smd circle (at 7.62 0) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp 3c19f8f8-a178-48d2-9f30-b43b3150809b))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+  (model "${KIPRJMOD}/3dmodels/DIP-16 W7.62mm IC with Socket.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

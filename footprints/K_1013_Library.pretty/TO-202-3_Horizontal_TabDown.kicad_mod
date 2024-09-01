@@ -55,8 +55,18 @@
   (pad "1" thru_hole roundrect (at 0 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 50bf663b-ee90-4d1d-af45-894665094fb4))
   (pad "2" thru_hole roundrect (at 2.54 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp ef5c6594-7522-4dd9-bd22-3fc7c2a24634))
   (pad "3" thru_hole roundrect (at 5.08 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 0b81d92c-603a-4ce0-9e15-f6c96ed40002))
-  (model "${KICAD7_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch5.08mm_Drill1.3mm.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch5.08mm_Drill1.3mm.wrl" hide
     (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3dmodels/507222B00000G.stp"
+    (offset (xyz 2.5 7 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+    (offset (xyz 0 0 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

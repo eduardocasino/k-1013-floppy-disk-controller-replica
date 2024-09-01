@@ -203,9 +203,9 @@
   (pad "40" smd circle (at 15.24 0) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp 2d1385f0-e4d7-48fc-abbe-32115f3725f9))
   (pad "40" smd oval (at 15.24 0) (size 3 1.2) (layers "B.Cu" "B.Mask") (tstamp 86a3593c-b294-4ce8-8922-10fd78dc2143))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.wrl"
+  (model "${KIPRJMOD}/3dmodels/DIP-40 W15.24mm IC with Socket.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

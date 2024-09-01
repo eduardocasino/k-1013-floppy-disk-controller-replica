@@ -221,7 +221,7 @@
   (pad "14" smd circle (at 7.62 0.01) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp d7fb2d38-8c5d-4aec-8d1e-12364171927e))
   (pad "14" smd oval (at 7.62 0.01) (size 3 1.2) (layers "B.Cu" "B.Mask") (tstamp 800da90f-803c-4371-897f-964e358a9c3f))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.wrl"
+  (model "${KIPRJMOD}/3dmodels/DIP-14 W7.62mm IC with Socket.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
