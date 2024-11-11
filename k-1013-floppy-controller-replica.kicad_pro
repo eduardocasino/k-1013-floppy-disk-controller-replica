@@ -56,6 +56,7 @@
         }
       ],
       "drc_exclusions": [
+        "isolated_copper|203195193|40485007|df4aa5c5-e1a0-4f5e-aa8a-09aeadebba40|00000000-0000-0000-0000-000000000000",
         "isolated_copper|286665993|203947089|5edf1311-ec34-4236-a51b-8c364902f49f|00000000-0000-0000-0000-000000000000",
         "isolated_copper|287100194|203425401|d8372a3f-abf0-43d5-9e57-692409b0f4c8|00000000-0000-0000-0000-000000000000",
         "isolated_copper|287165993|204457089|03c2a5ea-5886-403d-93a9-364656d0289c|00000000-0000-0000-0000-000000000000",
@@ -107,7 +108,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",

@@ -53,7 +53,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 23cb0bc5-a265-4fcb-a541-f5b6304fc789))
   (pad "1" thru_hole oval (at 0 0) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp b5f75e11-418a-4d71-b656-6a2807c8e657))
   (pad "2" thru_hole oval (at 35.56 0) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp b77f0ee3-871f-461d-a4bf-e45b27f59432))
-  (model "${KIPRJMOD}/3dmodels/Cap. Electrolytic Axial 16x31.5mm Picth 36 mm NICHICON.stp"
+  (model "${KIPRJMOD}/3dmodels/CP_Axial_L30.0mm_D12.5mm_P35.56mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

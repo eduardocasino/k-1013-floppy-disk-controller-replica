@@ -125,9 +125,9 @@
   (pad "16" smd circle (at 7.62 0) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 90) (tstamp 3c19f8f8-a178-48d2-9f30-b43b3150809b))
   (pad "16" smd oval (at 7.62 0) (size 3 1.2) (layers "B.Cu" "B.Mask") (tstamp c88b06fe-69df-481c-85b0-bf1db4d28ab0))
-  (model "${KIPRJMOD}/3dmodels/SW-NDS-08V.stp"
-    (offset (xyz 3.81 -8.89 0))
+  (model "${KIPRJMOD}/3dmodels/a_16-lc-tt.stp"
+    (offset (xyz 3.81 -8.89 3.81))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz -90 0 90))
   )
 )

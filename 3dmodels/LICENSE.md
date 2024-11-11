@@ -1,6 +1,5 @@
-Potentiometer models by 
-Markus Walter https://grabcad.com/library/bourns-3362p-1-102lf
-
+Potentiometer model by 
+quang.ngothe@hotmail.com https://grabcad.com/library/potentiometer-3386p-1
 
 Heatsink model by
 Kevin Carroll https://grabcad.com/library/v2008b-1
