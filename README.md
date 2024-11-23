@@ -14,7 +14,7 @@ Routing is completed, still in revision.
 
 ![front](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-front.png?raw=true)
 ![back](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-back.png?raw=true)
-![components](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica-components.png?raw=true)
+![completed](https://github.com/eduardocasino/k-1013-floppy-disk-controller-replica/blob/main/images/k-1013-floppy-controller-replica.png?raw=true)
 
 
 **WARNING: This design is a work-in-progress has not been tested yet. Use at your own risk!**
